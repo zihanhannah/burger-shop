@@ -9,10 +9,10 @@ public class Assessment {
         Burger bigMac = new Burger("Big Mac", 3, 7, 2, true);
 
         System.out.println(bigMac.getNumPickles());
-        System.out.println(bigMac.burgerHasCheese());
+//        System.out.println(bigMac.burgerHasCheese());
 
         Burger homestyle = new Burger("Homestyle", 2, 3, 1, false);
-        System.out.println(homestyle.burgerHasCheese());
+//        System.out.println(homestyle.burgerHasCheese());
 
         System.out.println("The area of a rectangle with side 1: 5, and side 2: 7 is equal to: " + getArea(5, 7));
         // Make a hash map of burgers where the key => value relationship is 'burgerName' => Burger()
